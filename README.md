@@ -17,27 +17,26 @@ To use this code, you need to have Python installed on your system. Additionally
 - matplotlib
 
 You can install these libraries using pip:
-
+```bash
 pip install numpy pandas matplotlib
-
+```
 
 ## Usage
 
 1. Clone the repository to your local machine:
-
-
+```bash
 git clone https://github.com/Parsa-Baniamerian/Thyroid_Disease_Diagnosis.git
-
+```
 
 2. Navigate to the repository directory:
-
+```bash
 cd MLP_Thyroid
+```
 
-
-3. Run the main script:
-
+4. Run the main script:
+```bash
 python main.py
-
+```
 
 4. The script will train the neural network using the provided data and display the training loss and validation accuracy over epochs. After training, it will calculate the accuracy on the test dataset and display the results.
 
